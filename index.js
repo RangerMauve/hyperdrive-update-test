@@ -16,6 +16,8 @@ writer.ready(() => {
   writer.once('peer-open', () => setInterval(write, WRITE_DELAY))
 
   reader.ready(() => {
+    reader.watch('/', () => console.log('Watch change'))
+
     const stream1 = writer.replicate(true, { live: true })
     const stream2 = reader.replicate(false, { live: true })
 
