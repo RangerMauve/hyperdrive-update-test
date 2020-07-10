@@ -1,0 +1,23 @@
+{
+  "name": "hyperdrive-update-test",
+  "version": "1.0.0",
+  "description": "Testing to see if hyperdrive update events work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RangerMauve/hyperdrive-update-test.git"
+  },
+  "author": "rangermauve <ranger@mauve.moe> (https://mauve.moe/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RangerMauve/hyperdrive-update-test/issues"
+  },
+  "homepage": "https://github.com/RangerMauve/hyperdrive-update-test#readme",
+  "dependencies": {
+    "hyperdrive": "^10.13.0",
+    "random-access-memory": "^3.1.1"
+  }
+}
